@@ -4,6 +4,7 @@ import Home from "./MyPortfolio/Home";
 import About from "./MyPortfolio/About";
 import Projects from "./MyPortfolio/Projects";
 import Contact from "./MyPortfolio/Contact";
+import Footer from "./MyPortfolio/Footer";
 import info from "./MyPortfolio/ChangeYourInfoHere";
 
 const MyPortfolioView = () => {
@@ -11,6 +12,12 @@ const MyPortfolioView = () => {
     <div>
       <Home name={info.yourName} description={info.yourDescription} />
       <Contact email={info.yourEmail} />
+      <Footer
+        linkedIn={info.yourLinkedIn}
+        github={info.yourGitHub}
+        twitter={info.yourTwitter}
+        facebook={info.yourFacebook}
+      />
     </div>
   );
 };

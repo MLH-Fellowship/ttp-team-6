@@ -8,4 +8,5 @@ export { default as Home } from "./MyPortfolio/Home";
 export { default as About } from "./MyPortfolio/About";
 export { default as Projects } from "./MyPortfolio/Projects";
 export { default as Contact } from "./MyPortfolio/Contact";
+export { default as Footer } from "./MyPortfolio/Footer";
 export { default as Info } from "./MyPortfolio/ChangeYourInfoHere";
