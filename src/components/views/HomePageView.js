@@ -38,7 +38,10 @@ const HomePageView = () => {
               Three portfolios will be made by us, and the rest are free to
               download portfolios made by other people online.
             </p>
-            <Link to="/portfolios" className="btn btn-lg btn-light mt-4">
+            <Link
+              to="/portfolios"
+              className="btn btn-lg btn-outline-light mt-4"
+            >
               Choose A Portfolio!
             </Link>
           </div>
