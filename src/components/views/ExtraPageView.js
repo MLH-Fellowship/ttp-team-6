@@ -52,13 +52,13 @@ const ExtraPageView = () => {
             <div className="col">
               <div className="card">
                 <a
-                  href="https://react-resume-template.herokuapp.com/#home"
+                  href="https://nordicgiant2.github.io/react-nice-resume-page/index.html#about"
                   target="_blank"
                 >
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src="https://i.imgur.com/eWmqFeU.png"
+                    src="https://i.imgur.com/XIM0We6.png"
                   />
                 </a>
               </div>
