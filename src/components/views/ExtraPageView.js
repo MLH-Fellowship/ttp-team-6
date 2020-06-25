@@ -10,7 +10,7 @@ const ExtraPageView = () => {
         <ParticlesBg type="circle" bg={true} />
         <div className="text-center">
           <div className="navbar-width d-flex p-3 mx-auto flex-column">
-            <div className="header mb-5">
+            <div className="header mb-4">
               <h3 className="float-left">Online Portfolios</h3>
               <div className="nav float-right justify-content-center">
                 <Link to="/" className="nav-link">
@@ -27,10 +27,13 @@ const ExtraPageView = () => {
           </div>
 
           <div className="overview">
-            <h1>Extra Page</h1>
+            <h1>Free Online Resources</h1>
             <p className="lead">
-              This is ExtraPageView! This page should have a collection of
-              different online portfolios that are downloadable and editable.
+              As portfolio designs are highly dependent on user preference, we
+              decided to add links to free online portfolios. If you aren't
+              satisfief with our design, or you are too lazy to take the time to
+              research some, feel free to check out some of the portfolios
+              below.
             </p>
           </div>
 
