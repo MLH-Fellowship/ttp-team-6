@@ -18,11 +18,16 @@ const HomePageView = () => {
               <Link to="/portfolios" className="nav-link ml-4">
                 Portfolios
               </Link>
+              <Link to="/extras" className="nav-link ml-4">
+                Extras
+              </Link>
             </div>
           </div>
         </div>
 
         <div className="overview mt-5">
+          <br />
+          <br />
           <h1>Overview</h1>
           <p className="lead mt-4">
             Nowadays, having an online portfolio and presence is really

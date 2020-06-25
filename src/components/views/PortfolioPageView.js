@@ -18,6 +18,9 @@ const PortfolioPageView = () => {
               <Link to="/portfolios" className="nav-link active ml-4">
                 Portfolios
               </Link>
+              <Link to="/extras" className="nav-link ml-4">
+                Extras
+              </Link>
             </div>
           </div>
         </div>
