@@ -22,7 +22,7 @@ const PortfolioPageView = () => {
                 Extras
               </Link>
             </div>
-          </div>
+          </div>                                              
         </div>
 
         <div className="overview">
