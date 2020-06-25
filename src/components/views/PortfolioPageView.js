@@ -34,31 +34,37 @@ const PortfolioPageView = () => {
         </div>
 
         <div className="row mt-4 popup">
-          <div className="col" onClick="">
+          <div className="col">
             <div className="card">
-              <img
-                className="card-img-top portfolio-image"
-                alt="Image"
-                src=""
-              />
+              <Link to="/myPortfolio">
+                <img
+                  className="card-img-top portfolio-image"
+                  alt="Image"
+                  src=""
+                />
+              </Link>
             </div>
           </div>
-          <div className="col" onClick="">
+          <div className="col">
             <div className="card">
-              <img
-                className="card-img-top portfolio-image"
-                alt="Image"
-                src=""
-              />
+              <Link to="/">
+                <img
+                  className="card-img-top portfolio-image"
+                  alt="Image"
+                  src=""
+                />
+              </Link>
             </div>
           </div>
-          <div className="col" onClick="">
+          <div className="col">
             <div className="card">
-              <img
-                className="card-img-top portfolio-image"
-                alt="Image"
-                src=""
-              />
+              <Link to="/">
+                <img
+                  className="card-img-top portfolio-image"
+                  alt="Image"
+                  src=""
+                />
+              </Link>
             </div>
           </div>
         </div>
