@@ -10,7 +10,7 @@ const PortfolioPageView = () => {
         <ParticlesBg type="circle" bg={true} />
         <div className="text-center">
           <div className="navbar-width d-flex p-3 mx-auto flex-column">
-            <div className="header mb-5">
+            <div className="header mb-4">
               <h3 className="float-left">Online Portfolios</h3>
               <div className="nav float-right justify-content-center">
                 <Link to="/" className="nav-link">
