@@ -38,13 +38,13 @@ const ExtraPageView = () => {
             <div className="col">
               <div className="card">
                 <a
-                  href="https://ryanfitzgerald.github.io/devblog/"
+                  href="https://react-resume-template.herokuapp.com/"
                   target="_blank"
                 >
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src="https://i.imgur.com/YzR8nov.png"
+                    src="https://i.imgur.com/o8wy1mY.png"
                   />
                 </a>
               </div>
@@ -65,14 +65,11 @@ const ExtraPageView = () => {
             </div>
             <div className="col">
               <div className="card">
-                <a
-                  href="https://bootstrapmade.com/demo/MyResume/"
-                  target="_blank"
-                >
+                <a href="https://developerfolio.js.org/" target="_blank">
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src="https://i.imgur.com/dTXStBB.png"
+                    src="https://i.imgur.com/RLQhjLG.png"
                   />
                 </a>
               </div>
