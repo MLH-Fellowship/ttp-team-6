@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/MyPortfolioView.css";
 
 const Contact = ({ email }) => {
   return (
