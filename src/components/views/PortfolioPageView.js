@@ -15,6 +15,9 @@ const PortfolioPageView = () => {
               <Link to="/" className="nav-link">
                 Home
               </Link>
+              <Link to="/about" className="nav-link ml-4">
+                About
+              </Link>
               <Link to="/portfolios" className="nav-link active ml-4">
                 Portfolios
               </Link>
