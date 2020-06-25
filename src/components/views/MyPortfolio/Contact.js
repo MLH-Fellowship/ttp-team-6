@@ -11,7 +11,7 @@ const Contact = ({ email }) => {
           className="btn btn-lg btn-outline-light mt-3"
           href={email}
         >
-          <strong>Email Me!</strong>
+          <strong>Email Me</strong>
         </a>
       </div>
     </div>
