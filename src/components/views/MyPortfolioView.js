@@ -10,6 +10,7 @@ const MyPortfolioView = () => {
   return (
     <div>
       <Home name={info.yourName} description={info.yourDescription} />
+      <Contact email={info.yourEmail} />
     </div>
   );
 };
