@@ -4,7 +4,7 @@ import {
   HomePageContainer,
   PortfolioPageContainer,
   ExtraPageContainer,
-  PortfolioPage1,
+  AboutPageContainer,
 } from "../containers";
 
 const RoutesView = () => {
@@ -13,7 +13,7 @@ const RoutesView = () => {
       <Route exact path="/" component={HomePageContainer} />
       <Route exact path="/portfolios" component={PortfolioPageContainer} />
       <Route exact path="/extras" component={ExtraPageContainer} />
-      <Route exact path="/portfolio-1" component={PortfolioPage1} />
+      <Route exact path="/about" component={AboutPageContainer} />
     </Switch>
   );
 };

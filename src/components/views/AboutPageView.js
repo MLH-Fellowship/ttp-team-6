@@ -3,7 +3,7 @@ import "./styles/PageView.css";
 import ParticlesBg from "particles-bg";
 import { Link } from "react-router-dom";
 
-const PortfolioPageOneView = () => {
+const AboutPageView = () => {
   return (
     <>
       <ParticlesBg type="circle" bg={true} />
@@ -41,4 +41,4 @@ const PortfolioPageOneView = () => {
   );
 };
 
-export default PortfolioPageOneView;
+export default AboutPageView;

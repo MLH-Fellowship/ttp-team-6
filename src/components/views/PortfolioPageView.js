@@ -36,6 +36,9 @@ const PortfolioPageView = () => {
         <div className="row mt-4 popup">
           <div className="col" onClick="">
             <div className="card">
+            <Link to="/portfolio-1" className="nav-link active ml-4">
+                Portfolio-1 
+              </Link>
               <img
                 className="card-img-top portfolio-image"
                 alt="Image"
