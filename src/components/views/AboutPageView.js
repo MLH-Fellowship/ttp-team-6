@@ -2,11 +2,15 @@ import React from "react";
 import "./styles/PageView.css";
 import ParticlesBg from "particles-bg";
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 const AboutPageView = () => {
   return (
     <>
-      <ParticlesBg type="circle" bg={true} />
+      <ParticlesBg type="square" bg={true} />
       <div className="text-center">
         <div className="navbar-width d-flex h-100 p-3 mx-auto flex-column">
           <div className="header mb-5">
@@ -28,18 +32,24 @@ const AboutPageView = () => {
           </div>
         </div>
 
-        <div className="overview mt-5">
-          <br />
-          <br />
-          <h1>Overview</h1>
-          <p className="lead mt-4">
-            This will be the about page
-          </p>
-          <Link to="/portfolios" className="btn btn-lg btn-light mt-4">
-            Choose A Portfolio!
-          </Link>
-        </div>
+ 
       </div>
+
+
+      <Container>
+  <Row>
+    <Col md={4}>
+    <h1> About me</h1>
+    </Col>
+    <Col md={{ span: 4, offset: 4 }}>{`md={{ span: 4, offset: 4 }}`}</Col>
+  </Row>
+  <Row>
+    <p>Here is some test about me..</p>
+  </Row>
+  <Row>
+    <Col md={{ span: 6, offset: 3 }}>{`md={{ span: 6, offset: 3 }}`}</Col>
+  </Row>
+</Container>
     </>
   );
 };
