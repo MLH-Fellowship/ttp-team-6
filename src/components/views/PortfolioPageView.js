@@ -27,10 +27,12 @@ const PortfolioPageView = () => {
           </div>
 
           <div className="overview">
-            <h1>Portfolio Page</h1>
+            <h1>Choose A Portfolio!</h1>
             <p className="lead">
-              This is PortfolioPageView! This page should have a collection of
-              different portfolios, styled using cards from bootstrap.
+              Due to limited time constraints, we were only able to design one
+              portfolio (inspired by cobidev) that is easy to download and
+              change to your needs. All the links down below will lead to the
+              same portfolio.
             </p>
           </div>
 
@@ -41,29 +43,29 @@ const PortfolioPageView = () => {
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src=""
+                    src="https://i.imgur.com/r5Etjcw.png"
                   />
                 </Link>
               </div>
             </div>
             <div className="col">
               <div className="card">
-                <Link to="/">
+                <Link to="/myPortfolio">
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src=""
+                    src="https://i.imgur.com/r5Etjcw.png"
                   />
                 </Link>
               </div>
             </div>
             <div className="col">
               <div className="card">
-                <Link to="/">
+                <Link to="/myPortfolio">
                   <img
                     className="card-img-top portfolio-image"
                     alt="Image"
-                    src=""
+                    src="https://i.imgur.com/r5Etjcw.png"
                   />
                 </Link>
               </div>
