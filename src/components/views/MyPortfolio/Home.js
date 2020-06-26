@@ -14,7 +14,11 @@ const Home = ({ name, description, resume }) => {
           <Link to="#" className="btn btn-lg btn-outline-info ml-3">
             <strong>Learn More</strong>
           </Link>
-          <a href={resume} className="btn btn-lg btn-outline-info ml-2">
+          <a
+            href={resume}
+            target="_blank"
+            className="btn btn-lg btn-outline-info ml-2"
+          >
             <strong>View Resume</strong>
           </a>
         </div>
