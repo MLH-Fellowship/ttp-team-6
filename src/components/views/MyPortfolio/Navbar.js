@@ -20,7 +20,7 @@ const NavBar = ({ name }) => {
         </Navbar.Brand> */}
 
         <Nav className="ml-auto">
-          <Nav.Link href="#">About</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#">Projects</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>

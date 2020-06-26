@@ -27,6 +27,36 @@
 
 /**
  ************************************
+ *             About              
+ ************************************ 
+**/
+
+#about {
+  min-height: 65vh;
+  height: 65vh;
+  background-image: linear-gradient(
+    135deg,
+    rgb(43, 176, 180),
+    rgb(114, 227, 231)
+  );
+}
+
+.about-title {
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.about-description {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/**
+ ************************************
  *            Contact              
  ************************************ 
 **/
@@ -36,8 +66,8 @@
   height: 40vh;
   background-image: linear-gradient(
     135deg,
-    rgb(43, 176, 180),
-    rgb(114, 227, 231)
+    rgb(114, 227, 231),
+    rgb(43, 176, 180)
   );
   display: flex;
   align-items: center;
