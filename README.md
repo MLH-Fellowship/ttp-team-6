@@ -121,6 +121,10 @@ You can use [Netlify](https://netlify.com) or [Heroku](https://www.heroku.com) t
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-end component library
 - [Particles-Bg](https://github.com/lindelof/particles-bg) - React particles animation background
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Acknowledgements
 
 Thanks to MLH Fellowship for giving us the opportunity to work on this project, and thanks to [cobidev](https://github.com/cobidev) for providing some inspiration towards our minimalist portfolio design.
