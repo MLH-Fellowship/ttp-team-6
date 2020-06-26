@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./MyPortfolio/Navbar";
+import NavBar from "./MyPortfolio/NavBar";
 import Home from "./MyPortfolio/Home";
 import About from "./MyPortfolio/About";
 import Projects from "./MyPortfolio/Projects";
@@ -10,6 +10,7 @@ import info from "./MyPortfolio/ChangeYourInfoHere";
 const MyPortfolioView = () => {
   return (
     <div>
+      <NavBar name={info.yourName} />
       <Home name={info.yourName} description={info.yourDescription} />
       <Contact email={info.yourEmail} />
       <Footer
