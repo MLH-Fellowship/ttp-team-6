@@ -61,7 +61,7 @@ Open the project using a text editor. We recommend using Visual Studio Code. We 
 
 Go to `src/components/views/MyPortfolio/ChangeYourInfoHere.js`. If done correctly, you should be seeing something like this:
 
-![ChangeYourInfoHere.js](https://i.imgur.com/CRKdB4f.png)
+![ChangeYourInfoHere.js](https://i.imgur.com/QhfoTVU.png)
 
 Now, just follow along with the comments to add your information to the portfolio. Saving your changes will update the website in real-time, so you can view the changes you made and see if you like them.
 
