@@ -12,16 +12,16 @@ const AboutPageView = () => {
   return (
     
     <>
-      <ParticlesBg type="square" bg={true} />
+      <ParticlesBg type="circle" bg={true} />
       <div className="text-center">
         <div className="navbar-width d-flex h-100 p-3 mx-auto flex-column">
           <div className="header mb-5">
             <h3 className="float-left">Online Portfolios</h3>
             <div className="nav float-right justify-content-center">
-              <Link to="/" className="nav-link active">
+              <Link to="/" className="nav-link ml-4">
                 Home
               </Link>
-              <Link to="/about" className="nav-link ml-4">
+              <Link to="/about" className="nav-link active">
                 About
               </Link>
               <Link to="/portfolios" className="nav-link ml-4">
@@ -36,27 +36,39 @@ const AboutPageView = () => {
 
  
       </div>
+      <Container> 
+    <Row>
+    <Col className="d-flex align-items-start" >your picture</Col>
+    <Col  className="d-flex align-items-end" xs={4}>About Me</Col>
 
-      <Container>
+  </Row></Container> 
+  
+  
+  <Container className="d-flex justify-content-start"> 
   <Row>
-    <Col  md={{ span: 4, offset: 4 }}>
-    
-    <h3> About me</h3>
-    <div class="fakeimg">
+    <Col>
     <Image
-     width={128}
-     height={128}
-     className="mr-3"
-    src="https://placehold.it/150x80?text=IMAGE/128x128"
+    src="https://placehold.it/216"
     alt="Example js"
   />
-    </div>
+  
+    
     </Col>
-  </Row>
-  <Row>
-    <p>Lorem ipsum dolor sit amet, erat justo voluptua per at. Tollit tempor rationibus nam eu, mel ut esse munere albucius, ne qui erat option. Wisi nostrud cum ea, eu tale denique duo. Ei menandri platonem mel, ius prima placerat deseruisse ad. Ad qui petentium signiferumque, ei sale ludus feugait has.</p>
-  </Row>
+    <Col> This is where you should describe yourself including intrest, hobbiest, techonology you use(use place holder images below to show icons of these technologies)</Col>
+    </Row>
+    </Container>
+    
+
+ 
+
+
+  <Container >
+    
     <Row>
+      <Col xs={2} >  space</Col>
+    </Row>
+  <Row>
+    <Col xs={1}>       </Col>
     <Col>
     <Media>
   <Image
@@ -70,8 +82,7 @@ const AboutPageView = () => {
 </Media>
 <h5> Example js</h5>
 </Col>
-
-<Col>
+    <Col>
     <Media>
   <Image
      width={128}
@@ -79,14 +90,12 @@ const AboutPageView = () => {
      className="mr-3"
     src="https://placehold.it/150x80?text=IMAGE/128x128"
     alt="Example js"
-    rounded
   />
 
 </Media>
 <h5> Example js</h5>
 </Col>
-
-<Col>
+    <Col>
     <Media>
   <Image
      width={128}
@@ -94,14 +103,15 @@ const AboutPageView = () => {
      className="mr-3"
     src="https://placehold.it/150x80?text=IMAGE/128x128"
     alt="Example js"
-    roundedCircle 
   />
 
 </Media>
 <h5> Example js</h5>
 </Col>
+    <Col xs={1}>      </Col>
   </Row>
 </Container>
+
     </>
   );
 };
