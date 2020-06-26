@@ -31,8 +31,9 @@ const PortfolioPageView = () => {
             <p className="lead">
               Due to limited time constraints, we were only able to design one
               portfolio (inspired by cobidev) that is easy to download and
-              change to your needs. All the links down below will lead to the
-              same portfolio.
+              change to meet your needs. View the README in the repository for
+              this project to get started. All the links down below will lead to
+              the same portfolio.
             </p>
           </div>
 
