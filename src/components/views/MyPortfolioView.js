@@ -26,6 +26,14 @@ const MyPortfolioView = () => {
         projectTitle={info.yourProjectTitle}
         projectDescription={info.yourProjectDescription}
         projectLink={info.yourProjectLink}
+        projectImageII={info.yourProjectImageII}
+        projectTitleII={info.yourProjectTitleII}
+        projectDescriptionII={info.yourProjectDescriptionII}
+        projectLinkII={info.yourProjectLinkII}
+        projectImageIII={info.yourProjectImageIII}
+        projectTitleIII={info.yourProjectTitleIII}
+        projectDescriptionIII={info.yourProjectDescriptionIII}
+        projectLinkIII={info.yourProjectLinkIII}
       />
       <Contact email={info.yourEmail} />
       <Footer

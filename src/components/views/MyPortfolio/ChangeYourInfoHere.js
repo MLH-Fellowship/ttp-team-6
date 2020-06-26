@@ -42,6 +42,36 @@ export default {
   yourProjectLink:
     "Your Project URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
 
+  // Projects Page Image II (enter your project image URL in the quotes)
+  yourProjectImageII:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title II (enter your title in the quotes)
+  yourProjectTitleII: "Your Project II Title Here",
+
+  // Projects Page Description II (enter your project description in the quotes)
+  yourProjectDescriptionII:
+    "Your Project II Description Here (i.e. The project does this...)",
+
+  // Projects Page URL II (enter your project URL in the quotes)
+  yourProjectLinkII:
+    "Your Project II URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
+  // Projects Page Image III (enter your project image URL in the quotes)
+  yourProjectImageIII:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title III (enter your title in the quotes)
+  yourProjectTitleIII: "Your Project III Title Here",
+
+  // Projects Page Description III (enter your project description in the quotes)
+  yourProjectDescriptionIII:
+    "Your Project III Description Here (i.e. The project does this...)",
+
+  // Projects Page URL III (enter your project URL in the quotes)
+  yourProjectLinkIII:
+    "Your Project III URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
   // Contact Page Email (enter your email in the quotes after the "mailto:")
   yourEmail: "mailto:Your Email Here (i.e. JohnDoe@example.com)",
 

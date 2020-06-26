@@ -40,10 +40,17 @@ const HomePageView = () => {
             </p>
             <Link
               to="/portfolios"
-              className="btn btn-lg btn-outline-light mt-4"
+              className="btn btn-lg btn-outline-light mt-4 mr-2"
             >
-              Choose A Portfolio!
+              Choose A Portfolio
             </Link>
+            <a
+              href="https://github.com/MLH-Fellowship/ttp-team-6"
+              target="_blank"
+              className="btn btn-lg btn-outline-light mt-4 ml-2"
+            >
+              View The Repository
+            </a>
           </div>
         </div>
       </div>
