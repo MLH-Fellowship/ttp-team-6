@@ -2,7 +2,7 @@
 
 Nowadays, having an online portfolio and presence is really important. More importantly, each person has their own preferences towards look and design. The purpose of this app is to gather a multitude of reusable portfolio templates for you to choose from. Three portfolios will be made by us, and the rest are free to download portfolios made by other people online.
 
-Group Members: Lamarr, Jan Markus Milan, Vincent Xie
+Team Members: Lamarr, Jan Markus Milan, Vincent Xie
 
 ## Getting Started
 
@@ -123,4 +123,4 @@ You can use [Netlify](https://netlify.com) or [Heroku](https://www.heroku.com) t
 
 ## Acknowledgements
 
-Thanks to MLH Fellowship for giving us the opportunity to work on this project, and thanks to [cobidev](https://github.com/cobidev) for providing some inspiration towards our minimalist portfolio design
+Thanks to MLH Fellowship for giving us the opportunity to work on this project, and thanks to [cobidev](https://github.com/cobidev) for providing some inspiration towards our minimalist portfolio design.
