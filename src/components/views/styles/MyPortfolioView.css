@@ -1,0 +1,159 @@
+/**
+ ************************************
+ *              Home              
+ ************************************ 
+**/
+
+#home {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: white;
+  font-weight: 400;
+  padding: 0rem 5.6rem;
+}
+
+.home-title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: left;
+}
+
+.home-description {
+  color: #3a3a3a;
+}
+
+/**
+ ************************************
+ *             About              
+ ************************************ 
+**/
+
+#about {
+  min-height: 70vh;
+  height: 70vh;
+  background-image: linear-gradient(
+    135deg,
+    rgb(43, 176, 180),
+    rgb(114, 227, 231)
+  );
+}
+
+.about-title {
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.about-description {
+  color: white;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.about-image {
+  width: 271px;
+  min-height: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/**
+ ************************************
+ *            Projects              
+ ************************************ 
+**/
+
+#projects {
+  min-height: 75vh;
+  height: 75vh;
+  background: white;
+}
+
+.projects-title {
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#projects .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/**
+ ************************************
+ *            Contact              
+ ************************************ 
+**/
+
+#contact {
+  min-height: 40vh;
+  height: 40vh;
+  background-image: linear-gradient(
+    135deg,
+    rgb(114, 227, 231),
+    rgb(43, 176, 180)
+  );
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 3rem;
+  color: white;
+}
+
+/**
+ ************************************
+ *             Footer              
+ ************************************ 
+**/
+
+#footer {
+  min-height: 20vh;
+  height: 20vh;
+  background-image: linear-gradient(135deg, rgb(49, 49, 49), rgb(43, 43, 43));
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  transition: all 0.2s ease-in;
+}
+
+.social-links a:hover {
+  transform: translateY(-6px);
+  text-decoration: none;
+}
+
+.back-to-top i {
+  color: white;
+  transition: all 0.2s ease-in;
+}
+
+.back-to-top i:hover {
+  transform: translateY(-6px);
+}

@@ -1,4 +1,4 @@
-body {
+.page-body {
   display: flex;
   justify-content: center;
   color: #fff;
@@ -28,4 +28,21 @@ body {
 
 .overview {
   max-width: 55em;
+}
+
+.popup > * {
+  cursor: pointer;
+  pointer-events: auto;
+  transition: 300ms opacity, 300ms transform;
+}
+
+.popup:hover > *:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.portfolio-image {
+  width: 271px;
+  height: 200px;
+  object-fit: cover;
 }
