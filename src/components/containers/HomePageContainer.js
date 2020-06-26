@@ -3,11 +3,7 @@ import { HomePageView } from "../views";
 
 class HomePageContainer extends Component {
   render() {
-    return (
-      <div>
-        <HomePageView />
-      </div>
-    );
+    return <HomePageView />;
   }
 }
 
