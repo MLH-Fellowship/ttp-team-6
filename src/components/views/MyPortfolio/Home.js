@@ -11,9 +11,9 @@ const Home = ({ name, description, resume }) => {
         </h1>
         <h4 className="home-description">{description}</h4>
         <div className="row mt-3">
-          <Link to="#" className="btn btn-lg btn-outline-info ml-3">
+          <a href="#about" className="btn btn-lg btn-outline-info ml-3">
             <strong>Learn More</strong>
-          </Link>
+          </a>
           <a
             href={resume}
             target="_blank"
