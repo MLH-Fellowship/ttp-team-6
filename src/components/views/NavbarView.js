@@ -5,7 +5,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 const NavbarView = () => {
     return (
         <>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" fixed="top">
             {/* Top left corner button that displays text */}
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
 
