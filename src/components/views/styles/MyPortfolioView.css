@@ -63,6 +63,33 @@
 
 /**
  ************************************
+ *            Projects              
+ ************************************ 
+**/
+
+#projects {
+  min-height: 75vh;
+  height: 75vh;
+  background: white;
+}
+
+.projects-title {
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#projects .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/**
+ ************************************
  *            Contact              
  ************************************ 
 **/

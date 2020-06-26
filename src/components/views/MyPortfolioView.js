@@ -21,6 +21,12 @@ const MyPortfolioView = () => {
         aboutTwo={info.yourAboutTwo}
         profilePicture={info.yourProfilePicture}
       />
+      <Projects
+        projectImage={info.yourProjectImage}
+        projectTitle={info.yourProjectTitle}
+        projectDescription={info.yourProjectDescription}
+        projectLink={info.yourProjectLink}
+      />
       <Contact email={info.yourEmail} />
       <Footer
         linkedIn={info.yourLinkedIn}

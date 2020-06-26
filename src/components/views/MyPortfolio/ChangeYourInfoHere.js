@@ -27,6 +27,21 @@ export default {
   yourProfilePicture:
     "Your Profile Picture URL Here (i.e. https://i.imgur.com/yourlinkhere.png)",
 
+  // Projects Page Image (enter your project image URL in the quotes)
+  yourProjectImage:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title (enter your title in the quotes)
+  yourProjectTitle: "Your Project Title Here",
+
+  // Projects Page Description (enter your project description in the quotes)
+  yourProjectDescription:
+    "Your Project Description Here (i.e. The project does this...)",
+
+  // Projects Page URL (enter your project URL in the quotes)
+  yourProjectLink:
+    "Your Project URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
   // Contact Page Email (enter your email in the quotes after the "mailto:")
   yourEmail: "mailto:Your Email Here (i.e. JohnDoe@example.com)",
 
