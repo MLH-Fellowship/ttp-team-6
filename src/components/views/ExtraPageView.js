@@ -31,9 +31,8 @@ const ExtraPageView = () => {
             <p className="lead">
               As portfolio designs are highly dependent on user preference, we
               decided to add links to free online portfolios. If you aren't
-              satisfief with our design, or you are too lazy to take the time to
-              research some, feel free to check out some of the portfolios
-              below.
+              satisfied with our design, or you don't have the time to research
+              some, feel free to check out some of the portfolios below.
             </p>
           </div>
 

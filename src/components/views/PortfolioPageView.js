@@ -27,7 +27,7 @@ const PortfolioPageView = () => {
           </div>
 
           <div className="overview">
-            <h1>Choose A Portfolio!</h1>
+            <h1>Our Custom Portfolios</h1>
             <p className="lead">
               Due to limited time constraints, we were only able to design one
               portfolio (inspired by cobidev) that is easy to download and
