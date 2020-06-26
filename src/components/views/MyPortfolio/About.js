@@ -4,6 +4,8 @@ import "../styles/MyPortfolioView.css";
 const About = ({ about, aboutTwo, profilePicture }) => {
   return (
     <div id="about">
+      <br />
+      <br />
       <h2 className="about-title pt-4">About Me</h2>
       <div className="container">
         <div className="row about-description mt-4 pt-2">

@@ -5,6 +5,15 @@
 export default {
   // Please don't remove the comma's (,) after each ending line
 
+  /**
+   *
+   *
+   * This section is the Navbar / Home Section
+   * Add changes to your Navbar / Home here
+   *
+   *
+   **/
+
   // NavBar & Home Page Name (enter your name in the quotes)
   yourName: "Your Name Here",
 
@@ -14,6 +23,15 @@ export default {
   // Home Page Resume URL (enter your resume URL in the quotes)
   yourResume:
     "Your Resume URL Here (i.e. https://drive.google.com/file/d/yourlinkhere/view?ths=true)",
+
+  /**
+   *
+   *
+   * This section is the About Section
+   * Add changes to your About here
+   *
+   *
+   **/
 
   // About Page Description (enter your description in the quotes)
   yourAbout:
@@ -26,6 +44,15 @@ export default {
   // About Page Profile Picture URL (enter your profile picture URL in the quotes)
   yourProfilePicture:
     "Your Profile Picture URL Here (i.e. https://i.imgur.com/yourlinkhere.png)",
+
+  /**
+   *
+   *
+   * This section is the Projects Section
+   * Add changes to your projects here
+   *
+   *
+   **/
 
   // Projects Page Image (enter your project image URL in the quotes)
   yourProjectImage:
@@ -72,8 +99,75 @@ export default {
   yourProjectLinkIII:
     "Your Project III URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
 
+  // ------------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------------------------
+
+  // Projects Page Image IV (enter your project image URL in the quotes)
+  yourProjectImageIV:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title IV (enter your title in the quotes)
+  yourProjectTitleIV: "Your Project IV Title Here",
+
+  // Projects Page Description IV (enter your project description in the quotes)
+  yourProjectDescriptionIV:
+    "Your Project IV Description Here (i.e. The project does this...)",
+
+  // Projects Page URL IV (enter your project URL in the quotes)
+  yourProjectLinkIV:
+    "Your Project IV URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
+  // Projects Page Image V (enter your project image URL in the quotes)
+  yourProjectImageV:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title V (enter your title in the quotes)
+  yourProjectTitleV: "Your Project V Title Here",
+
+  // Projects Page Description V (enter your project description in the quotes)
+  yourProjectDescriptionV:
+    "Your Project V Description Here (i.e. The project does this...)",
+
+  // Projects Page URL V (enter your project URL in the quotes)
+  yourProjectLinkV:
+    "Your Project V URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
+  // Projects Page Image VI (enter your project image URL in the quotes)
+  yourProjectImageVI:
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+
+  // Projects Page Title VI (enter your title in the quotes)
+  yourProjectTitleVI: "Your Project VI Title Here",
+
+  // Projects Page Description VI (enter your project description in the quotes)
+  yourProjectDescriptionVI:
+    "Your Project VI Description Here (i.e. The project does this...)",
+
+  // Projects Page URL VI (enter your project URL in the quotes)
+  yourProjectLinkVI:
+    "Your Project VI URL Here (i.e. https://github.com/yournamehere/yourprojectnamehere)",
+
+  /**
+   *
+   *
+   * This section is the Contact Section
+   * Add changes to your Contact here
+   *
+   *
+   **/
+
   // Contact Page Email (enter your email in the quotes after the "mailto:")
   yourEmail: "mailto:Your Email Here (i.e. JohnDoe@example.com)",
+
+  /**
+   *
+   *
+   * This section is the Footer Section
+   * Add changes to your Footer here
+   *
+   *
+   **/
 
   // Footer LinkedIn URL (enter your LinkedIn URL in the quotes)
   yourLinkedIn:
