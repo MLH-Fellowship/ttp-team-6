@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/MyPortfolioView.css";
 import { Link } from "react-router-dom";
 
-const Home = ({ name, description }) => {
+const Home = ({ name, description, resume }) => {
   return (
     <div id="home">
       <div class="container">
@@ -10,9 +10,14 @@ const Home = ({ name, description }) => {
           Hi, I'm <span class="text-info">{name}</span>
         </h1>
         <h4 className="home-description">{description}</h4>
-        <Link to="/" className="btn btn-lg btn-outline-info mt-2">
-          <strong>Learn More</strong>
-        </Link>
+        <div className="row mt-3">
+          <Link to="#" className="btn btn-lg btn-outline-info ml-3">
+            <strong>Learn More</strong>
+          </Link>
+          <a href={resume} className="btn btn-lg btn-outline-info ml-2">
+            <strong>View Resume</strong>
+          </a>
+        </div>
       </div>
     </div>
   );

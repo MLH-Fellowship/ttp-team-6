@@ -11,6 +11,10 @@ export default {
   // Home Page Description (enter your description in the quotes)
   yourDescription: "Your Description Here (i.e. Occupation)",
 
+  // Home Page Resume URL (enter your resume URL in the quotes)
+  yourResume:
+    "Your Resume URL Here (i.e. https://drive.google.com/file/d/yourlinkhere/view?ths=true)",
+
   // Contact Page Email (enter your email in the quotes after the "mailto:")
   yourEmail: "mailto:Your Email Here (i.e. JohnDoe@example.com)",
 

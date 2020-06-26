@@ -11,7 +11,11 @@ const MyPortfolioView = () => {
   return (
     <div>
       <NavBar name={info.yourName} />
-      <Home name={info.yourName} description={info.yourDescription} />
+      <Home
+        name={info.yourName}
+        description={info.yourDescription}
+        resume={info.yourResume}
+      />
       <Contact email={info.yourEmail} />
       <Footer
         linkedIn={info.yourLinkedIn}
