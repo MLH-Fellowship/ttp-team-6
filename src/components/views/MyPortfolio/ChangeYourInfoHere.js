@@ -3,9 +3,9 @@
 // If you want to add or update your info, change the next after the colons.
 
 export default {
-  // Please don't remove the comma's (,) after each variable
+  // Please don't remove the comma's (,) after each ending line
 
-  // Home Page Name (enter your name in the quotes)
+  // NavBar & Home Page Name (enter your name in the quotes)
   yourName: "Your Name Here",
 
   // Home Page Description (enter your description in the quotes)
