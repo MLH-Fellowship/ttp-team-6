@@ -44,7 +44,7 @@ const AboutPageView = () => {
   </Row></Container> 
   
   
-  <Container className="d-flex justify-content-start"> 
+  <Container className="d-flex justify-content-around"> 
   <Row>
     <Col>
     <Image
