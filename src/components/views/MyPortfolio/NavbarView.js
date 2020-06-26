@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 
-const NavBar = ({ name }) => {
+const NavbarView = ({ name }) => {
   return (
     <>
       <Navbar bg="dark" variant="dark" fixed="top">
@@ -29,4 +29,4 @@ const NavBar = ({ name }) => {
   );
 };
 
-export default NavBar;
+export default NavbarView;
