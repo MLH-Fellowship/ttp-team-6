@@ -7,7 +7,7 @@ const HomePageView = () => {
   return (
     <>
       <div className="page-body">
-        <ParticlesBg num={500} type="circle" bg={true} />
+        <ParticlesBg num={200} type="circle" bg={true} />
         <div className="text-center">
           <div className="navbar-width d-flex p-3 mx-auto flex-column">
             <div className="header mb-5">
